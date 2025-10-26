@@ -45,5 +45,5 @@ cd Heart-Stroke-Predict
 
 3. Run the web application:
 
-python app.py http://localhost:8502/
+python app.py http://localhost:8502/#heart-stroke-prediction-by-muzahid
 
