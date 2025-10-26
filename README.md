@@ -15,19 +15,13 @@ Heart-Stroke-Predict is a machine-learning web application that predicts whether
 - Dataset (`heart.csv`) included for reproducibility.
 
 ---
-
-## Structure
-
-/ |-- Heart data.ipynb        # Jupyter notebook with EDA, model training |-- heart.csv               # Dataset used for training/testing |-- heart_columns.pkl       # Pickled list of feature column names |-- heart_scaler.pkl        # Pickled scaler object for preprocessing |-- knn_heart_model.pkl     # Serialized trained KNN model |-- app.py                  # Web application for prediction |-- README.md               # This file
-
----
 ### Tech Stack
 - Python 3.8+
 - Flask
 - Scikit-learn
 - Pandas
 - Numpy
-  
+    
 
 ## Getting Started
 
@@ -51,7 +45,5 @@ cd Heart-Stroke-Predict
 
 3. Run the web application:
 
-python app.py
+python app.py http://localhost:8502/
 
-
-4. Open your browser and navigate to http://127.0.0.1:5000 (or as specified) and provide user inputs to get a prediction.
